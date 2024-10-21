@@ -92,7 +92,7 @@ An example command-line to train PixelLLM on LN with [config file](configs/bert/
 
 ```shell
 $ python -m scenic.projects.pixel_llm.main \
-  --config=scenic/projects/vid2seq/configs/bert/pixel_llm_bert_trace.py \
+  --config=scenic/projects/pixel_llm/configs/bert/pixel_llm_bert_trace.py \
   --workdir=pixel_llm_bert_trace/
 ```
 
