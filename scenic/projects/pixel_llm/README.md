@@ -63,7 +63,18 @@ If you find our work useful in your research, please cite:
 In the Scenic root folder, run
 
 ```
+git clone https://github.com/dohyun1411/scenic.git
+cd scenic
+pip install -e .
 pip install -r scenic/projects/pixel_llm/requirements.txt
+git clone https://github.com/google-research/t5x.git
+cd t5x
+pip isntall -e '.[gpu]'
+cd ..
+pip install ftfy regex tqdm
+pip install git+https://github.com/openai/CLIP.git
+pip install git+https://github.com/deepmind/dmvr.git
+pip install einops
 ```
 
 <!-- TODO(zhouxy): DenseVoc evaluator -->
